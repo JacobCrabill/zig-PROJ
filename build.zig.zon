@@ -1,0 +1,21 @@
+.{
+    .name = .PROJ,
+    .version = "9.6.0",
+    .fingerprint = 0x6499d124a6f07f50, // Changing this has security and trust implications.
+    .minimum_zig_version = "0.14.0",
+    .dependencies = .{
+        .proj = .{
+            .url = "https://github.com/OSGeo/PROJ/archive/refs/tags/9.6.0.tar.gz",
+            .hash = "N-V-__8AALxwkwS3t5BaKUgw7yOszIvMcodbO_GJDZCpXIqD",
+        },
+        .sqlite = .{
+            .url = "https://github.com/vrischmann/zig-sqlite/archive/59c06617d5b86546c0c739e73ae01d3965dbe8ce.tar.gz",
+            .hash = "sqlite-3.48.0-F2R_a_uGDgCfOH5UEJYjuOCe-HixnLjToxOdEGAEM3xk",
+        },
+    },
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "patch",
+    },
+}
