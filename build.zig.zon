@@ -9,8 +9,8 @@
             .hash = "N-V-__8AALxwkwS3t5BaKUgw7yOszIvMcodbO_GJDZCpXIqD",
         },
         .sqlite = .{
-            .url = "https://github.com/vrischmann/zig-sqlite/archive/59c06617d5b86546c0c739e73ae01d3965dbe8ce.tar.gz",
-            .hash = "sqlite-3.48.0-F2R_a_uGDgCfOH5UEJYjuOCe-HixnLjToxOdEGAEM3xk",
+            .url = "https://github.com/vrischmann/zig-sqlite/archive/6d90ee900d186a7fbb6066f28ee13beeaf8be345.tar.gz",
+            .hash = "sqlite-3.48.0-F2R_a5yODgDFvwwsytm7ZONcSqYBo3qv1PmXOtw3tqLA",
         },
     },
     .paths = .{
